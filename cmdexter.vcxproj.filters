@@ -13,10 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{f9482d13-61c8-4fb4-9f6c-2039a9cc991f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MAINDATA">
+      <UniqueIdentifier>{0776b42b-b1d0-46be-a571-efdfb340cb71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cmdexter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Changelog.txt">
+      <Filter>Docs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="MAINDATA\CurrentVersion.dex">
+      <Filter>MAINDATA</Filter>
+    </None>
+    <None Include="MAINDATA\ShellVersion.dex">
+      <Filter>MAINDATA</Filter>
+    </None>
+    <None Include="MAINDATA\exit_HelpFile.dex">
+      <Filter>MAINDATA</Filter>
+    </None>
   </ItemGroup>
 </Project>

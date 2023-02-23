@@ -129,6 +129,15 @@
   <ItemGroup>
     <ClCompile Include="cmdexter.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Changelog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MAINDATA\CurrentVersion.dex" />
+    <None Include="MAINDATA\exit_HelpFile.dex" />
+    <None Include="MAINDATA\ShellVersion.dex" />
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

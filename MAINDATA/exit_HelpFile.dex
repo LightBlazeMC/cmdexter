@@ -1,0 +1,12 @@
+-----[dex.exit HELP FILE]-----
+
+Syntax:
+dex.exit(x)
+Where x, provide reason code.
+
+Reason codes for exit:
+0 - Force shutdown. (Use if reason code 2 does not work.)
+1 - Restart shell.
+2 - Standard shutdown procedure. (Recommended)
+
+------------------------------
